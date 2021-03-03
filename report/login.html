@@ -1,0 +1,54 @@
+{% extends 'index.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login form</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<style>
+	
+</style>
+<body>
+	<div class="togglearea">
+		<label for="toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+	</div>
+		<input type="checkbox" id="toggle">
+	
+	<div class="navbar">
+		<div class="logo"> <b>Diabeties Predicition System </b></div>
+		<a href="home.html">Home</a>
+		<a href="login.html">Login</a>
+		<a href="register.html">Register</a>
+		</div>
+	<form method = "POST">
+      
+  <div class="imgcontainer">
+    <img src="css/images/d.jpg" width="200" height="200px">
+  </div>
+
+  <div class="container">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox"  name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw"><a href="password.html">Forget Password?</a></span>
+  </div>
+</form>
+ 
+		
+	</body>
+</html>
